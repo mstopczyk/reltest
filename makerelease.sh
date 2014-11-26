@@ -13,4 +13,10 @@ git push && git push --tags
 
 echo "*** FINISHED RELEASE PROCESS ***"
 
+echo "*** START PACK PROCESS ***"
+rm -rf ~/tmp/hopla
+mkdir ~/tmp/hopla
+cp . ~/tmp/hopla
 
+
+echo "*** START PACK FINISHED ***"
